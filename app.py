@@ -41,8 +41,10 @@ def handle_message(event):
 
 	if '瑞藝' in msg:
 		r = '臭臭師傅之王'
-	elif '重錡','小乖' in msg:
+	elif '重錡' in msg:
 		r = '臭臭'
+	elif '小乖' in msg:
+		r = '臭臭'	
 	elif '明軒' in msg:
 		r = '8+9'
 	elif '禹豪' in msg:
@@ -53,8 +55,12 @@ def handle_message(event):
 		r = '87'
 	elif '沅承' in msg:
 		r = '智障腦包喜憨兒狗一條'	
-	elif '峻豪','Vic','vic' in msg:
+	elif '峻豪' in msg:
 		r = '帥'
+	elif 'Vic' in msg:
+		r = '帥'
+	elif 'vic' in msg:
+		r = '帥'	
 
 
 	line_bot_api.reply_message(
