@@ -40,20 +40,20 @@ def handle_message(event):
 	msg = event.message.text
 
 	if '瑞藝' in msg:
+		r = '臭臭師傅之王'
+	elif '重錡','小乖' in msg:
 		r = '臭臭'
-
-		line_bot_api.reply_message(
-        event.reply_token,
-        sticker_message)
-		return 
-
-	if msg in ['Neo', 'neo']:
-		r = '狗一條'
-	elif msg in ['James', 'james']:
-		r = '快樂琴'
-	elif msg in ['Nick', 'nick']:
-		r = '宅'
-	elif msg in ['Vic', 'vic']:
+	elif '明軒' in msg:
+		r = '8+9'
+	elif '禹豪' in msg:
+		r = '水上'	
+	elif '宜正' in msg:
+		r = '柯有倫'
+	elif '宥騰' in msg:
+		r = '87'
+	elif '沅承' in msg:
+		r = '智障腦包喜憨兒狗一條'	
+	elif '峻豪','Vic','vic' in msg:
 		r = '帥'
 
 
