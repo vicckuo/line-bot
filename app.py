@@ -53,7 +53,7 @@ def handle_message(event):
 		r = '柯有倫'
 	elif '宥騰' in msg:
 		r = '87'
-	elif '沅承' in msg:
+	elif '沅丞' in msg:
 		r = '智障腦包喜憨兒狗一條'	
 	elif '峻豪' in msg:
 		r = '帥'
