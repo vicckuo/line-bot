@@ -63,6 +63,12 @@ def handle_message(event):
 		r = '帥'	
 	elif '邁耳音樂' in msg:
 		r = 'https://easy4music.com 好聽~推起來'
+	elif '飛機錡' in msg:
+		image_message = ImageSendMessage(
+   			 original_content_url='https://upload.cc/i1/2020/03/21/ojfc8h.jpeg',
+   			 preview_image_url='https://upload.cc/i1/2020/03/21/ojfc8h.jpeg'
+		r = '智力偏弱'
+		)
 
 
 	line_bot_api.reply_message(
