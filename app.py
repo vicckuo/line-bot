@@ -68,10 +68,11 @@ def handle_message(event):
    			 original_content_url='https://upload.cc/i1/2020/03/21/ojfc8h.jpeg',
    			 preview_image_url='https://upload.cc/i1/2020/03/21/ojfc8h.jpeg'
 		)
-		
+
 		line_bot_api.reply_message(
         event.reply_token,
         image_message)
+        r = '智力偏弱'
 		return 
 
 
