@@ -61,6 +61,8 @@ def handle_message(event):
 		r = '帥'
 	elif 'vic' in msg:
 		r = '帥'	
+	elif '邁耳音樂' in msg:
+		r = 'https://easy4music.com 好聽~推起來'
 
 
 	line_bot_api.reply_message(
