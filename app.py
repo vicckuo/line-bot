@@ -71,8 +71,12 @@ def handle_message(event):
 		line_bot_api.reply_message(
         event.reply_token,
         image_message)
+
+        line_bot_api.reply_message(
+        event.reply_token,
+        TextSendMessage(text='智力偏弱!'))
 		return 
-		r = '智力偏弱'
+		
 
 
 	line_bot_api.reply_message(
